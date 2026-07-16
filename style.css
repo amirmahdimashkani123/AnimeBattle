@@ -16,9 +16,11 @@ h1 {
 
 .fighters {
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 40px auto;
+    max-width: 600px;
 }
 
 .player, .enemy {
