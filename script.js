@@ -10,7 +10,9 @@ function attack() {
         enemyHP = 0;
     }
 
-    alert("You attacked! Damage: " + damage);
+    document.getElementById("enemyHP").innerHTML = enemyHP;
+
+    document.getElementById("enemyBar").style.width = enemyHP + "%";
 
     if (enemyHP === 0) {
         alert("You Win! 🎉");
