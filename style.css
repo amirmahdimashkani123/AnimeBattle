@@ -60,3 +60,8 @@ button {
     height: 100%;
     background: red;
 }
+
+.fighters {
+    display: flex;
+    flex-direction: row;
+}
